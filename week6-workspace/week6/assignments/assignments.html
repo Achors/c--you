@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Week XX - Assignments</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 id="week-xx---assignments">Week XX - Assignments</h1>
+<p>Name: Aldoff Nyerere Nyabando</p>
+<p>Group: ETI1V.1F</p>
+<p>Date: 11/10/2024</p>
+<p><strong>NOTE</strong>: if you'd like to have syntax highlighting in your markdown file, install the &quot;Markdown Preview Github Styling&quot; extension in VS Code.</p>
+<h2 id="first-assignment">First assignment</h2>
+<p>The first assignment I completed is assignment 2 Which sentence has the most vowels?.
+This is the code I wrote:</p>
+<pre><code class="language-c"><span class="hljs-comment">// <span class="hljs-doctag">TODO:</span> Write your code here</span>
+<span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdio.h&gt;</span></span>
+<span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;string.h&gt;</span></span>
+<span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdbool.h&gt;</span></span>
+<span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;functions.h&quot;</span> </span>
+
+<span class="hljs-meta">#<span class="hljs-keyword">define</span> MAX_SENTENCES 100</span>
+<span class="hljs-meta">#<span class="hljs-keyword">define</span> MAX_LENGTH 200</span>
+
+<span class="hljs-type">bool</span> <span class="hljs-title function_">contains_only_whitespace</span><span class="hljs-params">(<span class="hljs-type">const</span> <span class="hljs-type">char</span> <span class="hljs-built_in">string</span>[])</span>;
+<span class="hljs-type">int</span> <span class="hljs-title function_">count_vowels</span><span class="hljs-params">(<span class="hljs-type">const</span> <span class="hljs-type">char</span> <span class="hljs-built_in">string</span>[])</span>;
+
+<span class="hljs-type">int</span> <span class="hljs-title function_">main</span><span class="hljs-params">(<span class="hljs-type">void</span>)</span> {
+    <span class="hljs-type">char</span> sentences[MAX_SENTENCES][MAX_LENGTH]; 
+    <span class="hljs-type">int</span> max_vowel_count = <span class="hljs-number">0</span>; 
+    <span class="hljs-type">char</span> best_sentence[MAX_LENGTH]; 
+    <span class="hljs-type">int</span> sentence_count = <span class="hljs-number">0</span>; 
+
+    <span class="hljs-type">bool</span> continue_reading = <span class="hljs-literal">true</span>;
+
+    <span class="hljs-keyword">while</span> (continue_reading) {
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Enter a sentence (or whitespace to stop): &quot;</span>);
+        <span class="hljs-type">char</span> temp[MAX_LENGTH];
+        read_string(temp, <span class="hljs-keyword">sizeof</span>(temp)); 
+        
+        <span class="hljs-keyword">if</span> (contains_only_whitespace(temp)) {
+            continue_reading = <span class="hljs-literal">false</span>;
+        } <span class="hljs-keyword">else</span> {
+            <span class="hljs-type">int</span> current_vowel_count = count_vowels(temp);
+            
+            <span class="hljs-keyword">if</span> (current_vowel_count &gt; max_vowel_count) {
+                max_vowel_count = current_vowel_count;
+                <span class="hljs-built_in">strcpy</span>(best_sentence, temp); 
+            }
+        }
+    }
+
+    <span class="hljs-keyword">if</span> (max_vowel_count &gt; <span class="hljs-number">0</span>) {
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;The sentence with the most vowels is: %s\n&quot;</span>, best_sentence);
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Number of vowels: %d\n&quot;</span>, max_vowel_count);
+    } <span class="hljs-keyword">else</span> {
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;No valid sentences were entered.\n&quot;</span>);
+    }
+
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+}
+
+<span class="hljs-type">bool</span> <span class="hljs-title function_">contains_only_whitespace</span><span class="hljs-params">(<span class="hljs-type">const</span> <span class="hljs-type">char</span> <span class="hljs-built_in">string</span>[])</span> {
+    <span class="hljs-keyword">for</span> (<span class="hljs-type">size_t</span> i = <span class="hljs-number">0</span>; <span class="hljs-built_in">string</span>[i] != <span class="hljs-string">&#x27;\0&#x27;</span>; i++) {
+        <span class="hljs-keyword">if</span> (<span class="hljs-built_in">string</span>[i] != <span class="hljs-string">&#x27; &#x27;</span> &amp;&amp; <span class="hljs-built_in">string</span>[i] != <span class="hljs-string">&#x27;\t&#x27;</span> &amp;&amp; <span class="hljs-built_in">string</span>[i] != <span class="hljs-string">&#x27;\n&#x27;</span>) {
+            <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>; 
+        }
+    }
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>; 
+}
+
+<span class="hljs-type">int</span> <span class="hljs-title function_">count_vowels</span><span class="hljs-params">(<span class="hljs-type">const</span> <span class="hljs-type">char</span> <span class="hljs-built_in">string</span>[])</span> {
+    <span class="hljs-type">int</span> count = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">for</span> (<span class="hljs-type">size_t</span> i = <span class="hljs-number">0</span>; <span class="hljs-built_in">string</span>[i] != <span class="hljs-string">&#x27;\0&#x27;</span>; i++) {
+        <span class="hljs-type">char</span> ch = <span class="hljs-built_in">string</span>[i];
+        
+        <span class="hljs-keyword">if</span> (ch == <span class="hljs-string">&#x27;a&#x27;</span> || ch == <span class="hljs-string">&#x27;e&#x27;</span> || ch == <span class="hljs-string">&#x27;i&#x27;</span> || ch == <span class="hljs-string">&#x27;o&#x27;</span> || ch == <span class="hljs-string">&#x27;u&#x27;</span> ||
+            ch == <span class="hljs-string">&#x27;A&#x27;</span> || ch == <span class="hljs-string">&#x27;E&#x27;</span> || ch == <span class="hljs-string">&#x27;I&#x27;</span> || ch == <span class="hljs-string">&#x27;O&#x27;</span> || ch == <span class="hljs-string">&#x27;U&#x27;</span>) {
+            count++;
+        }
+    }
+    <span class="hljs-keyword">return</span> count;
+}
+
+</code></pre>
+<h2 id="second-assignment">Second assignment</h2>
+<p>The second assignment I completed is assignment YYY.
+This is the code I wrote:</p>
+<pre><code class="language-c"><span class="hljs-comment">// <span class="hljs-doctag">TODO:</span> Write your code here</span>
+<span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdio.h&gt;</span></span>
+<span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdbool.h&gt;</span></span>
+<span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;string.h&gt;</span></span>
+<span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;functions.h&quot;</span></span>
+
+<span class="hljs-meta">#<span class="hljs-keyword">define</span> MAX_LENGTH 200</span>
+
+<span class="hljs-type">int</span> <span class="hljs-title function_">compare_strings</span><span class="hljs-params">(<span class="hljs-type">const</span> <span class="hljs-type">char</span> str1[], <span class="hljs-type">const</span> <span class="hljs-type">char</span> str2[])</span>;
+<span class="hljs-type">void</span> <span class="hljs-title function_">swap_strings</span><span class="hljs-params">(<span class="hljs-type">char</span> str1[], <span class="hljs-type">char</span> str2[])</span>;
+
+<span class="hljs-type">int</span> <span class="hljs-title function_">main</span><span class="hljs-params">(<span class="hljs-type">void</span>)</span> {
+    <span class="hljs-type">char</span> str1[MAX_LENGTH];
+    <span class="hljs-type">char</span> str2[MAX_LENGTH];
+    <span class="hljs-type">char</span> str3[MAX_LENGTH];
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Enter the first string: &quot;</span>);
+    read_string(str1, <span class="hljs-keyword">sizeof</span>(str1));
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Enter the second string: &quot;</span>);
+    read_string(str2, <span class="hljs-keyword">sizeof</span>(str2));
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Enter the third string: &quot;</span>);
+    read_string(str3, <span class="hljs-keyword">sizeof</span>(str3));
+
+    <span class="hljs-keyword">if</span> (compare_strings(str1, str2) &gt; <span class="hljs-number">0</span>) {
+        swap_strings(str1, str2);
+    }
+    <span class="hljs-keyword">if</span> (compare_strings(str2, str3) &gt; <span class="hljs-number">0</span>) {
+        swap_strings(str2, str3);
+    }
+    <span class="hljs-keyword">if</span> (compare_strings(str1, str2) &gt; <span class="hljs-number">0</span>) {
+        swap_strings(str1, str2);
+    }
+
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nThe strings in alphabetical order are:\n&quot;</span>);
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%s\n&quot;</span>, str1);
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%s\n&quot;</span>, str2);
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%s\n&quot;</span>, str3);
+
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+}
+
+<span class="hljs-type">int</span> <span class="hljs-title function_">compare_strings</span><span class="hljs-params">(<span class="hljs-type">const</span> <span class="hljs-type">char</span> str1[], <span class="hljs-type">const</span> <span class="hljs-type">char</span> str2[])</span> {
+    <span class="hljs-keyword">for</span> (<span class="hljs-type">size_t</span> i = <span class="hljs-number">0</span>; ; i++) {
+        <span class="hljs-type">char</span> char1;
+        <span class="hljs-type">char</span> char2;
+
+        <span class="hljs-keyword">if</span> (str1[i] != <span class="hljs-string">&#x27;\0&#x27;</span>) {
+            char1 = str1[i] | <span class="hljs-number">0x20</span>; 
+        } <span class="hljs-keyword">else</span> {
+            char1 = <span class="hljs-string">&#x27;\0&#x27;</span>; 
+        }
+
+        <span class="hljs-keyword">if</span> (str2[i] != <span class="hljs-string">&#x27;\0&#x27;</span>) {
+            char2 = str2[i] | <span class="hljs-number">0x20</span>; 
+        } <span class="hljs-keyword">else</span> {
+            char2 = <span class="hljs-string">&#x27;\0&#x27;</span>; 
+        }
+
+        <span class="hljs-keyword">if</span> (char1 &lt; char2) {
+            <span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>; 
+        } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (char1 &gt; char2) {
+            <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>; 
+        }
+
+        
+    }
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>; 
+}
+
+
+<span class="hljs-type">void</span> <span class="hljs-title function_">swap_strings</span><span class="hljs-params">(<span class="hljs-type">char</span> str1[], <span class="hljs-type">char</span> str2[])</span> {
+    <span class="hljs-type">char</span> temp[MAX_LENGTH];
+    <span class="hljs-built_in">strcpy</span>(temp, str1);
+    <span class="hljs-built_in">strcpy</span>(str1, str2);
+    <span class="hljs-built_in">strcpy</span>(str2, temp);
+}
+
+
+</code></pre>
+<h2 id="third-assignment-optional">Third assignment (optional)</h2>
+<p>I've actually made three assignments this week! The third assignment I completed is assignment ZZZ.
+This is the code I wrote:</p>
+<pre><code class="language-c"><span class="hljs-comment">// <span class="hljs-doctag">TODO:</span> Write your code here</span>
+</code></pre>
+
+            
+            
+        </body>
+        </html>
